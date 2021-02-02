@@ -1,0 +1,294 @@
+﻿
+/*视频弹窗*/
+.alert_video{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  z-index: 99999;
+  display: none;
+}
+
+#video_player{
+    /*position: absolute;*/
+    left: 10%;
+}
+.video_panel{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    margin-top: 100px;
+}
+.close_video{
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  background: url(../images/close.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  right: 10%;
+  top: -47px;
+  cursor: pointer;
+}
+
+.banner_video{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:0%;
+}
+.full_video{
+  width:150%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:-25%;
+}
+
+
+
+
+
+
+
+/*视频弹窗*/
+.alert_video02{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  z-index: 99999;
+  display: none;
+}
+
+#video_player02{
+    left: 10%;
+}
+.video_panel02{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    margin-top: 100px;
+}
+.close_video02{
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  background: url(../images/close.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  right: 10%;
+  top: -47px;
+  cursor: pointer;
+}
+
+.banner_video02{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:0%;
+}
+.full_video02{
+  width:150%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:-25%;
+}
+
+
+/*视频弹窗03*/
+.alert_video03{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  z-index: 99999;
+  display: none;
+}
+
+#video_player03{
+    left: 10%;
+}
+.video_panel03{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    margin-top: 100px;
+}
+.close_video03{
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  background: url(../images/close.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  right: 10%;
+  top: -47px;
+  cursor: pointer;
+}
+
+.banner_video03{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:0%;
+}
+.full_video03{
+  width:150%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:-25%;
+}
+
+
+
+/*视频弹窗04*/
+.alert_video04{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  z-index: 99999;
+  display: none;
+}
+
+#video_player04{
+    left: 10%;
+}
+.video_panel04{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    margin-top: 100px;
+}
+.close_video04{
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  background: url(../images/close.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  right: 10%;
+  top: -47px;
+  cursor: pointer;
+}
+
+.banner_video04{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:0%;
+}
+.full_video04{
+  width:150%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:-25%;
+}
+
+
+/*视频弹窗05*/
+.alert_video05{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  z-index: 99999;
+  display: none;
+}
+
+#video_player05{
+    left: 10%;
+}
+.video_panel05{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    margin-top: 100px;
+}
+.close_video05{
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  background: url(../images/close.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  right: 10%;
+  top: -47px;
+  cursor: pointer;
+}
+
+.banner_video05{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:0%;
+}
+.full_video05{
+  width:150%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:-25%;
+}
+
+
+/*视频弹窗06*/
+.alert_video06{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  z-index: 99999;
+  display: none;
+}
+
+#video_player06{
+    left: 10%;
+}
+.video_panel06{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    margin-top: 100px;
+}
+.close_video06{
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  background: url(../images/close.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  right: 10%;
+  top: -47px;
+  cursor: pointer;
+}
+
+.banner_video06{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:0%;
+}
+.full_video06{
+  width:150%;
+  height:100%;
+  position:absolute;
+  top:0px;
+  left:-25%;
+}

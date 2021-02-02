@@ -1,0 +1,620 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script src="/templets/moban/js/uaredirect.js" type="text/javascript"></script>
+        <title>曼娜色彩文化传播有限公司</title>
+
+        <link href="/templets/moban/css/823dmaking.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="/templets/moban/js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="/templets/moban/js/flower.js"></script>
+
+        <script src="/templets/moban/js/jquery-2.1.1.min.js"></script>
+        <script src="/templets/moban/js/nav.js"></script>
+
+        <script type="text/javascript">
+            var timeout         = 500;
+            var closetimer		= 0;
+            var ddmenuitem      = 0;
+
+            function jsddm_open()
+            {	jsddm_canceltimer();
+                jsddm_close();
+                ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+            function jsddm_close()
+            {	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+            function jsddm_timer()
+            {	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+            function jsddm_canceltimer()
+            {	if(closetimer)
+            {	window.clearTimeout(closetimer);
+                closetimer = null;}}
+
+            $(document).ready(function()
+            {	$('#jsddm > li').bind('mouseover', jsddm_open);
+                $('#jsddm > li').bind('mouseout',  jsddm_timer);});
+
+            document.onclick = jsddm_close;
+        </script>
+
+        <!--首页弹出视频窗-->
+        <link rel="stylesheet" type="text/css" href="/templets/moban/css/index.css">
+        <script>
+            function isIE() { //ie?
+                if (!!window.ActiveXObject || "ActiveXObject" in window)
+                    return true;
+                else
+                    return false;
+            }
+            var ieFlag = isIE();
+
+        </script>
+
+        <script type="text/javascript" src="/templets/moban/js/jquery-1.8.3.min.js"></script>
+        <script>
+            $(function() {
+                $(".btn_top").hide();
+                $(".btn_top").live("click",function(){
+                    $('html, body').animate({scrollTop: 0},300);return false;
+                })
+                $(window).bind('scroll resize',function(){
+                    if($(window).scrollTop()<=300){
+                        $(".btn_top").hide();
+                    }else{
+                        $(".btn_top").show();
+                    }
+                })
+            })
+        </script>
+
+    </head>
+
+<body>
+<div id="idheader">
+    <div class="header">
+        <div class="headerleft"><a href="/" title=""><img src="/templets/moban/images/logo.jpg" border="0" alt=""></a></div>
+        <div class="headerright">
+            <div class="nav">
+                <ul id="jsddm">
+                    <li class="one"><a href="/"><span>首页</span></a></li>
+                    <li class="one"><a href="/guanyuwomen/"><span>关于我们</span></a>
+                        <ul>
+
+                            <li><a href="/guanyuwomen/jianjie/" style="padding-left:27px;"><b>简介</b></a></li>
+
+                            <li><a href="/guanyuwomen/huanjing/" style="padding-left:27px;"><b>环境</b></a></li>
+
+                            <li><a href="/guanyuwomen/zixun/" style="padding-left:27px;"><b>资讯</b></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="one"><a href="/caizhuangkecheng/"><span>色彩培训</span></a>
+                        <!--    <ul>
+
+                            </ul>-->
+                    </li>
+                    <li class="one"><a href="/huazhuangpeixun/"><span>学员故事</span></a>
+                    </li>
+
+                    <li class="one"><a href="/sheyingpeixun/"><span>作品展示</span></a></li>
+
+                    <li class="one"><a href="/shizililiang/"><span>师资力量</span></a>
+                        <!--    <ul>
+
+                            </ul>-->
+                    </li>
+                    <li class="one"><a href="/lianxiwomen/"><span>联系我们</span></a></li>
+                </ul>
+            </div>
+            <div class="htopbm"><a href="#">13755031343</a></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div class="nav_wrap">
+    <div class="nav_box clearfix">
+        <h1 class="daohang"><a href="/baoming/">报名</a></h1>
+        <a href="" title=""><h2><img src="/templets/moban/images/logo.png" alt="" align="absmiddle"></h2></a>
+
+        <div class="bgDiv"></div>
+        <div class="leftNav">
+            <a href="/"><span>首页</span></a>
+
+            <a href="/guanyuwomen/"><span>关于我们</span></a>
+
+            <a href="/caizhuangkecheng/"><span>花艺培训</span></a>
+
+            <a href="/huazhuangpeixun/"><span>学员故事</span></a>
+
+            <a href="/sheyingpeixun/"><span>作品展示</span></a>
+
+            <a href="/shizililiang/"><span>师资力量</span></a>
+
+            <a href="/xueyuanfengcai/"><span>学员风采</span></a>
+
+            <a href="/baoming/"><span>报名</span></a>
+        </div>
+    </div>
+</div>
+<div class="flower">
+    <b class="banner_l"></b>
+    <b class="banner_r"></b>
+    <ol class="clearfix"></ol>
+    <ul class="clearfix flower_pic">
+        <li class="flower_li">
+            <a href=''><img src="/uploads/190102/1-1Z10215535K56.jpg" width="100%" alt="" class="banner_pc" /></a>
+            <a href=''><img src="/uploads/180120/1-1P120113T5412.png" width="100%" alt="" class="banner_m" /></a>
+        </li>
+        <li class="flower_li">
+            <a href=''><img src="/uploads/190102/1-1Z102155343634.jpg" width="100%" alt="" class="banner_pc" /></a>
+            <a href=''><img src="/uploads/180120/1-1P120113QG28.png" width="100%" alt="" class="banner_m" /></a>
+        </li>
+        <li class="flower_li">
+            <a href=''><img src="/uploads/allimg/180112/1-1P112152H50-L.jpg" width="100%" alt="" class="banner_pc" /></a>
+            <a href=''><img src="/uploads/180120/1-1P120113K2402.png" width="100%" alt="" class="banner_m" /></a>
+        </li>
+        <li class="flower_li">
+            <a href=''><img src="/uploads/allimg/180112/1-1P1121526380-L.jpg" width="100%" alt="" class="banner_pc" /></a>
+            <a href=''><img src="/uploads/180120/1-1P120113649456.png" width="100%" alt="" class="banner_m" /></a>
+        </li>
+
+        <!--  <li class="flower_li">
+              <img src="/templets/moban/images/banner10.jpg" width="100%" alt="" class="banner_pc" />
+              <img src="/templets/moban/images/banner11.jpg" width="100%" alt="" class="banner_m" />
+              <div class="model">
+                  <div class="page_content clearfix">
+                      <h3 class="title_mas">我们传授的不只是技术，还有梦想</h3>
+                      <h2 class="title">we teach more than technology and dreams</h2>
+                      <span class="btn clearfix">
+                                  <button class="btn_L"><a href="newsshow/07.html">进入详情</a></button>
+                          </span>
+                  </div>
+              </div>
+          </li>
+
+          <li class="flower_li">
+              <img src="/templets/moban/images/banner20.jpg" width="100%" alt="" class="banner_pc"/>
+              <img src="/templets/moban/images/banner21.jpg" width="100%" alt="" class="banner_m"/>
+              <div class="model">
+                  <div class="page_content clearfix">
+                      <h3 class="title_mas">新人如何进入时尚化妆圈</h3>
+                      <h2 class="title">How do new people into The Fashion make-up world?</h2>
+                      <span class="btn clearfix"><button class="btn_L"><a href="newsshow/08.html">进入详情</a></button></span>
+                  </div>
+              </div>
+          </li>
+          <li class="flower_li">
+              <img src="/templets/moban/images/banner30.jpg" width="100%" alt="" class="banner_pc" />
+              <img src="/templets/moban/images/banner31.jpg" width="100%" alt="" class="banner_m" />
+              <div class="model">
+                  <div class="page_content clearfix">
+                      <h3 class="title_mas">你要真正的实现  做自己喜欢的工作</h3>
+                      <h2 class="title">Be truly practical  And work towards doing what you enjoy!</h2>
+                      <span class="btn clearfix"><button class="btn_L"><a href="newsshow/09.html">进入详情</a></button></span>
+                  </div>
+              </div>
+          </li>
+
+          <li class="flower_li">
+              <img src="/templets/moban/images/banner40.jpg" width="100%" alt="" class="banner_pc" />
+              <img src="/templets/moban/images/banner41.jpg" width="100%" alt="" class="banner_m" />
+              <div class="model">
+                  <div class="page_content clearfix">
+                      <h3 class="title_mas">学习的路上  我们并不孤单</h3>
+                      <h2 class="title">On the road to learning  We are not alone</h2>
+                      <span class="btn clearfix"><button class="btn_L"><a href="newsshow/05.html">进入详情</a></button></span>
+                  </div>
+              </div>
+          </li>
+
+          <li class="flower_li">
+              <img src="/templets/moban/images/banner50.jpg" width="100%" alt="" class="banner_pc" />
+              <img src="/templets/moban/images/banner51.jpg" width="100%" alt="" class="banner_m" />
+              <div class="model">
+                  <div class="page_content clearfix">
+                      <h3 class="title_mas">从零开始，输送专业级化妆造型全能人才</h3>
+                      <h2 class="title">零基础专业化妆师全科班——此课程新增手工饰品课</h2>
+                      <span class="btn clearfix"><button class="btn_L"><a href="curriculumshow/01.html">进入详情</a></button></span>
+                  </div>
+              </div>
+          </li> -->
+
+    </ul>
+</div>
+<div class="hone">
+    <ul>
+        <li><img src="/templets/moban/images/back_10.png" align="absmiddle" alt="专注形象领域培训" title="专注形象领域培训">专注美学领域培训</li>
+        <li><img src="/templets/moban/images/back_12.png" align="absmiddle" alt="汇聚大牛优质课程" title="汇聚大牛优质课程">汇聚精品优质课程</li>
+        <li><img src="/templets/moban/images/back_14.png" align="absmiddle" alt="提供终身辅导学习" title="提供终身辅导学习">提供终身辅导学习</li>
+        <li><img src="/templets/moban/images/back_16.png" align="absmiddle" alt="对接职业发展资源" title="对接职业发展资源">对接职业发展资源</li>
+    </ul>
+</div>
+
+
+<div class="htwo">
+    <div class="htitle">培训课程 Recent course</div>
+    <ul>
+
+        <li>
+            <div id="divimg1">
+                <a href="/caizhuangkecheng/2018/0106/66.html" title="麦穗插花艺术课" class="htwoimga"><img src="/uploads/190104/1-1Z10412042bC.jpg" alt="麦穗插花艺术课" width="100%" class="htwoimg"/></a>
+                <!--  <div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb.png"></div><div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb2.png"></div>-->
+            </div>
+
+            <div class="htwolr">
+                <h2><a href="/caizhuangkecheng/2018/0106/66.html" title="麦穗插花艺术课">麦穗插花艺术课</a></h2>
+                <p>麦穗.插花艺术课 MAI SUI .FLOWER ARRANGEMENT CLASS 课程简介 花朵向来有魔力，信手插一小束姹紫嫣红，不仅瞬间点亮了整个房间，也映照了整个每天的心情。您可 </p>
+            </div>
+        </li>
+        <li>
+            <div id="divimg1">
+                <a href="/caizhuangkecheng/2018/0106/64.html" title="麦穗创业花艺课" class="htwoimga"><img src="/uploads/190104/1-1Z104120415323.jpg" alt="麦穗创业花艺课" width="100%" class="htwoimg"/></a>
+                <!--  <div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb.png"></div><div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb2.png"></div>-->
+            </div>
+
+            <div class="htwolr">
+                <h2><a href="/caizhuangkecheng/2018/0106/64.html" title="麦穗创业花艺课">麦穗创业花艺课</a></h2>
+                <p>麦穗.创业花艺课 MAI SUI BUSINESS ARTS COURSE 课程简介 花艺创业基础班是综合花艺全能课程，是精心研发的课程，创业基础花艺不仅涵盖了中国式插花、婚庆花 </p>
+            </div>
+        </li>
+        <li>
+            <div id="divimg1">
+                <a href="/caizhuangkecheng/2018/0102/35.html" title="麦穗高级进修课" class="htwoimga"><img src="/uploads/190104/1-1Z10412035V91.jpg" alt="麦穗高级进修课" width="100%" class="htwoimg"/></a>
+                <!--  <div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb.png"></div><div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb2.png"></div>-->
+            </div>
+
+            <div class="htwolr">
+                <h2><a href="/caizhuangkecheng/2018/0102/35.html" title="麦穗高级进修课">麦穗高级进修课</a></h2>
+                <p>麦穗.高级进修课 MAI SUI .FLOWER ADVANCED COURSES 课程简介 花艺高级进修班是高级综合花艺课程，是精心研发的课程，不仅涵盖了家居花艺设计、商业花艺设计、 </p>
+            </div>
+        </li>
+        <li>
+            <div id="divimg1">
+                <a href="/caizhuangkecheng/2018/0106/65.html" title="麦穗插花沙龙课" class="htwoimga"><img src="/uploads/190104/1-1Z104120342F8.jpg" alt="麦穗插花沙龙课" width="100%" class="htwoimg"/></a>
+                <!--  <div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb.png"></div><div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb2.png"></div>-->
+            </div>
+
+            <div class="htwolr">
+                <h2><a href="/caizhuangkecheng/2018/0106/65.html" title="麦穗插花沙龙课">麦穗插花沙龙课</a></h2>
+                <p>麦穗.插花沙龙课 MAI SUI .FLOWER ARRANGEMENT SALON LESSON 课程简介 插花沙龙花艺课是团体沙龙课程，是根据单位及个人喜好量身定制的沙龙课程内容。可尊享私人 </p>
+            </div>
+        </li>
+        <li>
+            <div id="divimg1">
+                <a href="/caizhuangkecheng/2018/0103/44.html" title="麦穗气球花艺课" class="htwoimga"><img src="/uploads/190104/1-1Z104120311160.jpg" alt="麦穗气球花艺课" width="100%" class="htwoimg"/></a>
+                <!--  <div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb.png"></div><div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb2.png"></div>-->
+            </div>
+
+            <div class="htwolr">
+                <h2><a href="/caizhuangkecheng/2018/0103/44.html" title="麦穗气球花艺课">麦穗气球花艺课</a></h2>
+                <p>麦穗.气球花艺课 MAI SUI . BALLOON ART CLASS 课程简介 气球装饰设计是目前市场上最流行的趋势之一，无论是求婚现场，婚礼布置，宴会设计，生日派对，商业活 </p>
+            </div>
+        </li>
+        <li>
+            <div id="divimg1">
+                <a href="/caizhuangkecheng/2018/0102/38.html" title="麦穗弟子班" class="htwoimga"><img src="/uploads/190104/1-1Z10412011L53.jpg" alt="麦穗弟子班" width="100%" class="htwoimg"/></a>
+                <!--  <div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb.png"></div><div id="divimg2"><img src="{dede:global.cfg_templets_skin/}/images/newstb2.png"></div>-->
+            </div>
+
+            <div class="htwolr">
+                <h2><a href="/caizhuangkecheng/2018/0102/38.html" title="麦穗弟子班">麦穗弟子班</a></h2>
+                <p>麦穗.弟子班课程 MAI SUI .FLOWER DISCIPLE CLSS COURSE 课程简介 弟子花艺课是高级个性化定制课程，是根据个人喜好量身定制的私人课程，一对一学习。可尊享私人 </p>
+            </div>
+        </li>
+
+
+    </ul>
+</div>
+
+<!-- 视频弹窗 -->
+<div class="alert_video">
+    <div class="video_panel">
+        <div id="video_player"></div>
+        <i class="close_video"></i>
+    </div>
+</div>
+
+
+<!-- 视频弹窗 -->
+<div class="alert_video02">
+    <div class="video_panel02">
+        <div id="video_player02"></div>
+        <i class="close_video02"></i>
+    </div>
+</div>
+
+<div class="alert_video03">
+    <div class="video_panel03">
+        <div id="video_player03"></div>
+        <i class="close_video03"></i>
+    </div>
+</div>
+
+<div class="alert_video04">
+    <div class="video_panel04">
+        <div id="video_player04"></div>
+        <i class="close_video04"></i>
+    </div>
+</div>
+
+<div class="alert_video05">
+    <div class="video_panel05">
+        <div id="video_player05"></div>
+        <i class="close_video05"></i>
+    </div>
+</div>
+
+<div class="alert_video06">
+    <div class="video_panel06">
+        <div id="video_player06"></div>
+        <i class="close_video06"></i>
+    </div>
+</div>
+<script type="text/javascript" src="/templets/moban/js/touchslide.1.1.js"></script>
+<script type="text/javascript" src="/templets/moban/js/jwplayer.js"></script>
+<script type="text/javascript" src="/templets/moban/js/index.js"></script>
+
+
+<div class="hthree">
+    <div class="htitle"><span><a href="/shizililiang/">更多...</a></span>师资力量 Recent courses</div>
+    <ul class="hthreeul01">
+
+        <li>
+            <a href="/shizililiang/2018/0108/70.html" title=""><img src="/uploads/190104/1-1Z104144530L1.jpg" alt="梁胜芳" width="100%" /></a>
+            <h2><a href="/shizililiang/2018/0108/70.html" title="梁胜芳">梁胜芳</a></h2>
+            <p class="xuanting_p01">梁胜芳从事插花花艺事业三十多年。擅长园林绿化、插花花艺、大型会展布置。多次在全国性、国际性插花展览或比赛中荣获金奖，多次代表中国、代表上</p>
+        </li>
+        <li>
+            <a href="/shizililiang/2017/1228/31.html" title=""><img src="/uploads/190104/1-1Z10414431Y29.jpg" alt="陈俊山" width="100%" /></a>
+            <h2><a href="/shizililiang/2017/1228/31.html" title="陈俊山">陈俊山</a></h2>
+            <p class="xuanting_p01">北京集芳囿花卉贸易有限公司创始人、花艺设计师。 中国插花花艺协会理事 、中国花卉协会零售业分会理事单位 、 Interflora国际华商联会员单位。 2019年美</p>
+        </li>
+        <li>
+            <a href="/shizililiang/2017/1228/26.html" title=""><img src="/uploads/190128/1-1Z12Q20050647.jpg" alt="刘燃" width="100%" /></a>
+            <h2><a href="/shizililiang/2017/1228/26.html" title="刘燃">刘燃</a></h2>
+            <p class="xuanting_p01">万物•生空间美学机构 创办人兼创意总监 麦穗美学空间设计师，高级讲师 国家注册室内建筑师 中国建筑装饰协会会员 中国设计师协会(CDA)会员</p>
+        </li>
+        <li>
+            <a href="/shizililiang/2017/1228/30.html" title=""><img src="/uploads/190104/1-1Z1041442325a.jpg" alt="沐和" width="100%" /></a>
+            <h2><a href="/shizililiang/2017/1228/30.html" title="沐和">沐和</a></h2>
+            <p class="xuanting_p01">中国插花花艺协会理事； 花间事品牌创使人； 郑州麦穗美学教育高级讲师； 荣获中国插花花艺大赛创意奖； 荣获河南省插花花艺大赛一等奖多次； 师从</p>
+        </li>
+        <li>
+            <a href="/shizililiang/2017/1228/29.html" title=""><img src="/uploads/190104/1-1Z104144151U7.jpg" alt="李能" width="100%" /></a>
+            <h2><a href="/shizililiang/2017/1228/29.html" title="李能">李能</a></h2>
+            <p class="xuanting_p01">郑州麦穗美学教育创使人； 郑州麦穗花卉有限公司创始人。 河南麦穗企业营销策划有限公司创始人 中国花协零售业分会理事单位， 郑州麦穗美学花艺培训</p>
+        </li>
+
+
+
+
+    </ul>
+
+    <ul class="hthreeul02">
+
+        <li>
+            <a href="/shizililiang/2018/0108/70.html" title=""><img src="/uploads/190104/1-1Z104144530L1.jpg" alt="梁胜芳" width="100%" /></a>
+            <h2><a href="/shizililiang/2018/0108/70.html" title="">梁胜芳</a></h2>
+            <span>梁胜芳</span>
+            <p class="xuanting_p01">梁胜芳从事插花花艺事业三十多年。擅长园林绿化、插花花艺、大型会展布置。多次在全国性、国际性插花展览或比赛中荣获金奖，多次代表中国、代表上</p>
+        </li>
+        <li>
+            <a href="/shizililiang/2017/1228/31.html" title=""><img src="/uploads/190104/1-1Z10414431Y29.jpg" alt="陈俊山" width="100%" /></a>
+            <h2><a href="/shizililiang/2017/1228/31.html" title="">陈俊山</a></h2>
+            <span>陈俊山</span>
+            <p class="xuanting_p01">北京集芳囿花卉贸易有限公司创始人、花艺设计师。 中国插花花艺协会理事 、中国花卉协会零售业分会理事单位 、 Interflora国际华商联会员单位。 2019年美</p>
+        </li>
+        <li>
+            <a href="/shizililiang/2017/1228/26.html" title=""><img src="/uploads/190128/1-1Z12Q20050647.jpg" alt="刘燃" width="100%" /></a>
+            <h2><a href="/shizililiang/2017/1228/26.html" title="">刘燃</a></h2>
+            <span>刘燃</span>
+            <p class="xuanting_p01">万物•生空间美学机构 创办人兼创意总监 麦穗美学空间设计师，高级讲师 国家注册室内建筑师 中国建筑装饰协会会员 中国设计师协会(CDA)会员</p>
+        </li>
+        <li>
+            <a href="/shizililiang/2017/1228/30.html" title=""><img src="/uploads/190104/1-1Z1041442325a.jpg" alt="沐和" width="100%" /></a>
+            <h2><a href="/shizililiang/2017/1228/30.html" title="">沐和</a></h2>
+            <span>沐和</span>
+            <p class="xuanting_p01">中国插花花艺协会理事； 花间事品牌创使人； 郑州麦穗美学教育高级讲师； 荣获中国插花花艺大赛创意奖； 荣获河南省插花花艺大赛一等奖多次； 师从</p>
+        </li>
+
+
+
+    </ul>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".imgtext").hide();
+        $(".lanrenzhijia").hover(function(){
+            $(".imgtext",this).slideToggle(500);
+        });
+    });
+</script>
+<div class="hfour">
+    <div class="htitle"><span><a href="/xueyuanfengcai/">更多...</a></span>学员风采 Student style</div>
+    <ul class="hfourul01">
+
+        <li>
+            <div class="lanrenzhijia"><a href="/xueyuanfengcai/2019/1224/186.html" title="圣诞活动" class="htwoimga" ><img src="/uploads/191224/1-191224110302437.jpg" alt="圣诞活动" width="100%"/>
+                    <div class="text">
+                        <div class="imgtext"><h2>圣诞活动</h2>
+                            <p></p></div>
+                    </div></a>
+            </div>
+        </li>
+        <li>
+            <div class="lanrenzhijia"><a href="/xueyuanfengcai/2019/0711/179.html" title="毕业照片" class="htwoimga" ><img src="/uploads/190711/1-1ZG1212136424.jpg" alt="毕业照片" width="100%"/>
+                    <div class="text">
+                        <div class="imgtext"><h2>毕业照片</h2>
+                            <p></p></div>
+                    </div></a>
+            </div>
+        </li>
+        <li>
+            <div class="lanrenzhijia"><a href="/xueyuanfengcai/2019/0711/178.html" title="素颜陈设" class="htwoimga" ><img src="/uploads/190711/1-1ZG1191024O4.jpg" alt="素颜陈设" width="100%"/>
+                    <div class="text">
+                        <div class="imgtext"><h2>素颜陈设</h2>
+                            <p></p></div>
+                    </div></a>
+            </div>
+        </li>
+        <li>
+            <div class="lanrenzhijia"><a href="/xueyuanfengcai/2019/0711/177.html" title="学员照片" class="htwoimga" ><img src="/uploads/190711/1-1ZG11Z914210.JPG" alt="学员照片" width="100%"/>
+                    <div class="text">
+                        <div class="imgtext"><h2>学员照片</h2>
+                            <p></p></div>
+                    </div></a>
+            </div>
+        </li>
+        <li>
+            <div class="lanrenzhijia"><a href="/xueyuanfengcai/2018/0906/136.html" title="学员" class="htwoimga" ><img src="/uploads/180906/1-1PZ614462Ac.jpg" alt="学员" width="100%"/>
+                    <div class="text">
+                        <div class="imgtext"><h2>学员</h2>
+                            <p></p></div>
+                    </div></a>
+            </div>
+        </li>
+
+    </ul>
+
+    <ul class="hfourul02">
+
+        <li>
+            <div class="lanrenzhijia"><a href="/xueyuanfengcai/2019/1224/186.html" title="圣诞活动" class="htwoimga" ><img src="/uploads/191224/1-191224110302437.jpg" alt="圣诞活动" width="100%"/>
+                    <div class="text">
+                        <div class="imgtext"><h2>圣诞活动</h2>
+                            <p></p></div>
+                    </div></a>
+            </div>
+        </li>
+        <li>
+            <div class="lanrenzhijia"><a href="/xueyuanfengcai/2019/0711/179.html" title="毕业照片" class="htwoimga" ><img src="/uploads/190711/1-1ZG1212136424.jpg" alt="毕业照片" width="100%"/>
+                    <div class="text">
+                        <div class="imgtext"><h2>毕业照片</h2>
+                            <p></p></div>
+                    </div></a>
+            </div>
+        </li>
+        <li>
+            <div class="lanrenzhijia"><a href="/xueyuanfengcai/2019/0711/178.html" title="素颜陈设" class="htwoimga" ><img src="/uploads/190711/1-1ZG1191024O4.jpg" alt="素颜陈设" width="100%"/>
+                    <div class="text">
+                        <div class="imgtext"><h2>素颜陈设</h2>
+                            <p></p></div>
+                    </div></a>
+            </div>
+        </li>
+        <li>
+            <div class="lanrenzhijia"><a href="/xueyuanfengcai/2019/0711/177.html" title="学员照片" class="htwoimga" ><img src="/uploads/190711/1-1ZG11Z914210.JPG" alt="学员照片" width="100%"/>
+                    <div class="text">
+                        <div class="imgtext"><h2>学员照片</h2>
+                            <p></p></div>
+                    </div></a>
+            </div>
+        </li>
+
+
+
+
+    </ul>
+</div>
+
+<div class="hfive">
+    <div class="htitle"><span><a href="/guanyuwomen/zixun/">更多...</a></span>资讯与活动 News & Activity</div>
+    <ul>
+
+        <li>
+            <a href="/guanyuwomen/zixun/2020/0717/223.html" title="泰式小清新姜荷花"><img src="/uploads/200717/1-200GF9593J36.jpg" alt="泰式小清新姜荷花"/></a>
+            <h2><a href="/guanyuwomen/zixun/2020/0717/223.html" title="泰式小清新姜荷花">泰式小清新姜荷花</a></h2>
+            <p>2020-07-17</p>
+            <div>清新脱俗的夏日宠儿——姜荷花 却又不同于水莲花那般娇羞。它的美，是抬头舒展的，是落落大方的。姜荷花为姜科、姜黄属多年生草本植物，为热带球根</div>
+        </li>
+        <li>
+            <a href="/guanyuwomen/zixun/2020/0716/222.html" title="居家提高运势摆放什么绿植"><img src="/uploads/200716/1-200G6155940444.jpg" alt="居家提高运势摆放什么绿植"/></a>
+            <h2><a href="/guanyuwomen/zixun/2020/0716/222.html" title="居家提高运势摆放什么绿植">居家提高运势摆放什么绿植</a></h2>
+            <p>2020-07-16</p>
+            <div>现在很多人家里都喜欢摆放室内植物，但是你以为只是为了好看而摆设吗，这些常见植物的风水寓意你到底了解多少呢，现跟着小编一起来涨点姿势哦！</div>
+        </li>
+        <li>
+            <a href="/guanyuwomen/zixun/2020/0716/221.html" title="优雅清爽马蹄莲"><img src="/uploads/200716/1-200G615221ON.jpg" alt="优雅清爽马蹄莲"/></a>
+            <h2><a href="/guanyuwomen/zixun/2020/0716/221.html" title="优雅清爽马蹄莲">优雅清爽马蹄莲</a></h2>
+            <p>2020-07-16</p>
+            <div>马蹄莲原产南部非洲，尤其是南非、莱索托、莫桑比克一带。飘逸清秀的长相，是不是和撒哈拉以南非洲的出身形成了鲜明的对比？没想到，马蹄莲你这浓</div>
+        </li>
+        <li>
+            <a href="/guanyuwomen/zixun/2020/0716/219.html" title="新娘必备婚礼服饰"><img src="/uploads/200716/1-200G612054b55.jpg" alt="新娘必备婚礼服饰"/></a>
+            <h2><a href="/guanyuwomen/zixun/2020/0716/219.html" title="新娘必备婚礼服饰">新娘必备婚礼服饰</a></h2>
+            <p>2020-07-16</p>
+            <div>结婚对于我们来说是一件人生中的大事，对此我们一定要小心对待，那么来看一下结婚当天新娘忌讳什么？结婚当天新娘穿几套衣服？ 结婚当天新娘忌讳什</div>
+        </li>
+
+
+
+
+    </ul>
+</div>
+<div id="idend" style="padding:35px 0;">
+    <div class="endtop">
+        <div class="endtopleft"><img src="/templets/moban/images/logo02.png">
+            <div class="endend"><strong>曼娜色彩</strong>,<strong>色彩管理顾问</strong>,<strong>长沙色彩培训,<strong style="text-align:center;white-space:normal;">长沙市曼娜色彩文化传播有限公司</strong></strong><br />
+                咨询电话：0371-63303323 地址：湖南省长沙市芙蓉区荷花园街道远大一路280号湘域东方家园B-2112号 豫ICP备17050736号<br />
+
+            </div>
+        </div>
+        <div class="endtopright">
+            <ul>
+                <li><img src="/templets/moban/images/wx.jpg"><p>联系我们</p></li>
+                <li><img src="/uploads/190104/1-1Z1041524092c.jpg" width='100'><p>公众号</p></li>
+
+                <!--li><a href="https://user.qzone.qq.com/1810208153/infocenter" target="_blank"><img src="/templets/moban/images/back_59.jpg" border="0"></a></li-->
+                <!--li><a href="https://weibo.com/p/1005051920651791/home?from=page_100505&mod=TAB&is_all=1#place" target="_blank"><img src="/templets/moban/images/back_57.jpg"></a></li-->
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+</div>
+
+
+<div class="zsend">
+    <ul>
+        <li style="border-right:1px #5e5e5e solid;" class="left"><img src="/templets/moban/images/endpng01.png" border="0" align="absmiddle"/><p>导航</p></li>
+        <a href="http://p.qiao.baidu.com/cps/chat?siteId=11612742&userId=25008495" target="_blank"><li><img src="/templets/moban/images/endpng04.png" border="0" align="absmiddle"/><p>在线咨询</p></li></a>
+        <li style="border-right:1px #5e5e5e solid;" class="down1"><a href="tel:13939020252"><img src="/templets/moban/images/endpng02.png" border="0" align="absmiddle"/></a><p>电话</p></li>
+        <a href="mqqwpa://im/chat?chat_type=wpa&uin=https://user.qzone.qq.com/1810208153/infocenter&version=1&src_type=web&web_src=oicqzone.com" target="_blank"><li style="border-right:1px #5e5e5e solid;"><img src="/templets/moban/images/endpng03.png" border="0" align="absmiddle"/><p>QQ</p></li></a>
+    </ul>
+</div>
+
+
+<div class="izl-rmenu">
+    <div class="consult" target="_blank"><div class="phone" style="display:none;"><p style="border-bottom:1px #eee solid;"><a href="http://wpa.qq.com/msgrd?v=3&uin=1810208153&site=qq&menu=yes" target="_blank">在线咨询一</a></p><p><a href="http://wpa.qq.com/msgrd?v=3&uin=977044470&site=qq&menu=yes" target="_blank">在线咨询二</a></p></div></div>
+    <div class="cart"><div class="pic" style="background:url(/templets/moban/images/wx.jpg) no-repeat"></div></div>
+    <div class="consult02" target="_blank"><div class="phone02" style="display:none;"><p style="border-bottom:1px #eee solid;">手机一 <span>13755031343</span></p><p>手机二 <span>13755031343</span></p></div></div>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?c0ed9f013e5f448b865bff939f9d4a41";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</div>
+<script>
+    (function(b,a,e,h,f,c,g,s){b[h]=b[h]||function(){(b[h].c=b[h].c||[]).push(arguments)};
+        b[h].s=!!c;g=a.getElementsByTagName(e)[0];s=a.createElement(e);
+        s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefore(s,g)
+    })(window,document,"script","_qha",249280,false);
+</script>
+</body>
+</html>
+
